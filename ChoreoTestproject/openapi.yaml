@@ -1,12 +1,12 @@
 openapi: 3.0.1
 info:
-  title: testapi
-  description: API Definition of testapi
+  title: testApi
+  description: API Definition of testApi
   version: 1.0.0
 servers:
-  - url: "http://localhost:8290"
+- url: http://localhost:8290/testapi
 paths:
-  /testapi:
+  /:
     get:
       responses:
         default:
