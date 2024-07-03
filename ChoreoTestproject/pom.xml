@@ -9,9 +9,6 @@
   <name>ChoreoTestproject</name>
   <description>ChoreoTestproject</description>
   <modules>
-    <module>ChoreoTestprojectRegistryResources</module>
-    <module>ChoreoTestprojectConnectorExporter</module>
-    <module>ChoreoTestprojectDataServiceConfigs</module>
     <module>ChoreoTestprojectConfigs</module>
     <module>ChoreoTestprojectCompositeExporter</module>
   </modules>

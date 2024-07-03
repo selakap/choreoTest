@@ -22,13 +22,13 @@
   <dependencies>
     <dependency>
       <groupId>com.example.metadata</groupId>
-      <artifactId>testApi_metadata</artifactId>
+      <artifactId>testApi_swagger</artifactId>
       <version>1.0.0</version>
       <type>yaml</type>
     </dependency>
     <dependency>
       <groupId>com.example.metadata</groupId>
-      <artifactId>testApi_swagger</artifactId>
+      <artifactId>testApi_metadata</artifactId>
       <version>1.0.0</version>
       <type>yaml</type>
     </dependency>
