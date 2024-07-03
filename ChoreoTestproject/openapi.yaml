@@ -4,10 +4,22 @@ info:
   description: API Definition of testApi
   version: 1.0.0
 servers:
-- url: http://localhost:8290/testapi
+  - url: "http://localhost:8290"
 paths:
-  /:
+  /testApi/pets:
     get:
+      responses:
+        default:
+          description: Default response
+  "/testApi/pets/{petid}":
+    get:
+      parameters:
+        - name: petid
+          in: path
+          required: true
+          schema:
+            type: integer
+            example: 1
       responses:
         default:
           description: Default response
