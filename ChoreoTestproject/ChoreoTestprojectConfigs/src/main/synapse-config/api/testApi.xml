@@ -3,7 +3,7 @@
     <resource methods="GET" uri-template="/pet/{petid}">
         <inSequence>
             <log level="custom">
-                <property name="Start" value="Starting the flow"/>
+                <property name="Start" value="Starting the flow 123"/>
             </log>
             <call>
                 <endpoint>
