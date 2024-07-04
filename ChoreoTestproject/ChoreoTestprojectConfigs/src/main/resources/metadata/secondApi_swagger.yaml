@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: secondApi
+  description: API Definition of secondApi
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/secondapi
+paths:
+  resource1:
+    get:
+      responses:
+        default:
+          description: Default response
+  resource2:
+    get:
+      responses:
+        default:
+          description: Default response
