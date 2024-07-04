@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <api context="/testapi" name="testApi" xmlns="http://ws.apache.org/ns/synapse">
-    <resource methods="GET" uri-template="/pet/{petid}">
+    <resource methods="GET">
         <inSequence>
             <log level="custom">
                 <property name="Start" value="Starting the flow 123"/>
