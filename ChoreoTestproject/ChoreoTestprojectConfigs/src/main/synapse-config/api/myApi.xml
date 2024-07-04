@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <api context="/myapi" name="myApi" xmlns="http://ws.apache.org/ns/synapse">
-    <resource methods="POST GET" uri-template="firstresource">
+    <resource methods="POST GET" uri-template="/firstresource">
         <inSequence>
             <log level="custom">
                 <property name="==============" value="===================="/>
@@ -10,7 +10,7 @@
         <outSequence/>
         <faultSequence/>
     </resource>
-    <resource methods="GET" uri-template="newapi">
+    <resource methods="GET" uri-template="/newapi">
         <inSequence>
             <log level="custom">
                 <property name="++++++++++++++++++" value="++++++++++++++++++++++++++"/>

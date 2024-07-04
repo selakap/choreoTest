@@ -6,7 +6,7 @@ info:
 servers:
 - url: http://localhost:8290/myapi
 paths:
-  firstresource:
+  /firstresource:
     get:
       responses:
         default:
@@ -25,7 +25,7 @@ paths:
       responses:
         default:
           description: Default response
-  newapi:
+  /newapi:
     get:
       responses:
         default:
