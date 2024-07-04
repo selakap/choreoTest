@@ -1,17 +1,12 @@
 openapi: 3.0.1
 info:
-  title: testApi
-  description: API Definition of testApi
+  title: myApi
+  description: API Definition of myApi
   version: 1.0.0
 servers:
-- url: http://localhost:8290
+- url: http://localhost:8290/myapi
 paths:
-  /testapi:
-    get:
-      responses:
-        default:
-          description: Default response
-  /myapi/firstresource:
+  firstresource:
     get:
       responses:
         default:
@@ -30,7 +25,7 @@ paths:
       responses:
         default:
           description: Default response
-  /myapi/newapi:
+  newapi:
     get:
       responses:
         default:
