@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <api context="/secondapi" name="secondApi" xmlns="http://ws.apache.org/ns/synapse">
-    <resource methods="GET" uri-template="resource1">
+    <resource methods="GET" uri-template="/resource1">
         <inSequence>
             <log level="custom">
                 <property name="111111111111111111111111111" value="111111111111111111111111111"/>
@@ -10,7 +10,7 @@
         <outSequence/>
         <faultSequence/>
     </resource>
-    <resource methods="GET" uri-template="resource2">
+    <resource methods="GET" uri-template="/resource2">
         <inSequence>
             <log level="custom">
                 <property name="2222222222222222222222" value="22222222222222222222222222"/>

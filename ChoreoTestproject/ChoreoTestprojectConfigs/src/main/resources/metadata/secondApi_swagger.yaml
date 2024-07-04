@@ -6,12 +6,12 @@ info:
 servers:
 - url: http://localhost:8290/secondapi
 paths:
-  resource1:
+  /resource1:
     get:
       responses:
         default:
           description: Default response
-  resource2:
+  /resource2:
     get:
       responses:
         default:
