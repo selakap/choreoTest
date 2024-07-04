@@ -17,4 +17,16 @@
     <artifact name="secondApi_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
         <file>src/main/resources/metadata/secondApi_metadata.yaml</file>
     </artifact>
+    <artifact name="scheduletaskSequence" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/scheduletaskSequence.xml</file>
+    </artifact>
+    <artifact name="newSequence" groupId="com.example.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/newSequence.xml</file>
+    </artifact>
+    <artifact name="task1" groupId="com.example.task" version="1.0.0" type="synapse/task" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/tasks/task1.xml</file>
+    </artifact>
+    <artifact name="task2" groupId="com.example.task" version="1.0.0" type="synapse/task" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/tasks/task2.xml</file>
+    </artifact>
 </artifacts>

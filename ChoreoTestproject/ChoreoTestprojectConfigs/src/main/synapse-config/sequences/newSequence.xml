@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="newSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log level="custom">
+        <property name="inside task 2 sequence" value="888888888888888888888888888888888888888888"/>
+    </log>
+</sequence>
